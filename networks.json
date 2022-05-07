@@ -1,28 +1,30 @@
 {
     "networks": {
         "avalanche": {
-            "logoURL": "https://lioloc.github.io/tokenlists/assets/avalanche.svg",
-            "explorerURL": "https://snowtrace.io/token"
+            "chainId": 43114,
+            "chainName": "Avalanche",
+            "nativeCurrency": {
+                "name": "AVAX",
+                "symbol": "AVAX",
+                "decimals": 18
+            },
+            "rpcUrl": "https://api.avax.network/ext/bc/C/rpc",
+            "explorerURL": "https://snowtrace.io",
+            "explorerTokenURL": "https://snowtrace.io/token",
+            "logoURL": "https://lioloc.github.io/tokenlists/assets/avalanche.svg"
         },
         "ethereum": {
-            "logoURL": "https://lioloc.github.io/tokenlists/assets/ethereum.svg",
-            "explorerURL": "https://etherscan.io/token"
-        },
-        "binance-smart-chain": {
-            "logoURL": "https://lioloc.github.io/tokenlists/assets/binance-smart-chain.svg",
-            "explorerURL": "https://bscscan.com/token"
-        },
-        "solana": {
-            "logoURL": "https://lioloc.github.io/tokenlists/assets/solana.svg",
-            "explorerURL": "https://solscan.io/token"
-        },
-        "fantom": {
-            "logoURL": "https://lioloc.github.io/tokenlists/assets/fantom.svg",
-            "explorerURL": "https://ftmscan.com/token"
-        },
-        "polygon": {
-            "logoURL": "https://lioloc.github.io/tokenlists/assets/polygon.svg",
-            "explorerURL": "https://polygonscan.com/tokens/"
+            "chainId": 1,
+            "chainName": "Ethereum",
+            "nativeCurrency": {
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+            },
+            "rpcUrl": "https://api.mycryptoapi.com/eth",
+            "explorerURL": "https://etherscan.io",
+            "explorerTokenURL": "https://etherscan.io/token",
+            "logoURL": "https://lioloc.github.io/tokenlists/assets/ethereum.svg"
         }
     }
 }
