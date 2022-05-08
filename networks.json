@@ -11,7 +11,7 @@
             "rpcUrl": "https://api.avax.network/ext/bc/C/rpc",
             "explorerURL": "https://snowtrace.io",
             "explorerTokenURL": "https://snowtrace.io/token",
-            "logoURL": "https://lioloc.github.io/tokenlists/assets/avalanche.svg"
+            "logoURL": "https://lioloc.github.io/tokenlists/assets/avalanche.png"
         },
         "ethereum": {
             "chainId": 1,
